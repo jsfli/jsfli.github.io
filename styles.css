@@ -1,0 +1,115 @@
+
+/*a:link    {
+  color:green;
+  background-color:transparent;
+  text-decoration:none;
+}
+a:visited {
+  color:pink;
+  background-color:transparent;
+  text-decoration:none
+}
+a:hover   {
+  color:red;
+  background-color:transparent;
+  text-decoration:underline
+}
+a:active  {
+  color:yellow;
+  background-color:transparent;
+  text-decoration:underline
+}
+*/
+#footer {
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+
+#mainPage {
+  background-image: url("pictures/myPage.JPG");
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 20em;
+  height: 50em;
+  opacity: 1;
+  color: #CE5A57;
+  text-align: center;
+  letter-spacing: 1px;
+}
+#mainPage>h1 {
+  font-size: 10em;
+}
+#mainPage>p {
+  font-size: 2em;
+}
+
+#aboutMe {
+  padding: 2em 5em;
+}
+
+#photoGallery {
+  padding: 2em 5em;
+}
+
+#aboutMe img{
+  width: 20em;
+  height: 10em;
+  margin-top:3em;
+}
+
+.row{
+  padding: 2em 2em;
+}
+
+ul{
+  list-style-type: disc;
+  margin-left: 2em;
+}
+
+.page-header{
+  margin-left: 2em;
+}
+
+li{
+  padding-bottom: 0.5em;
+  font-size: 18px;
+}
+
+.row:hover{
+  background-color: #e3e3e3;
+}
+
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    /* The duration of the animation */
+    animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    /* Make the element visible */
+    visibility: visible;
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
